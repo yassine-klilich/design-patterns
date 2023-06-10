@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns.Behavioral_DP.Visitor_DP
 {
-    internal interface IPayment
+    internal interface IPaymentVisitor
     {
         public void SendMoney();
     }

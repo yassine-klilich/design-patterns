@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns.Behavioral_DP.Visitor_DP.Payment
 {
-    internal class Bitcoin : IPayment
+    internal class Bitcoin : IPaymentVisitor
     {
         public void SendMoney()
         {

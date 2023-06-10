@@ -10,7 +10,7 @@ namespace Design_Patterns.Behavioral_DP.Visitor_DP.Employee
     {
         public int NumberOfSurgeries { get; set; }
 
-        public override void PaySalary(IPayment payment)
+        public override void PaySalary(IPaymentVisitor payment)
         {
             payment.SendMoney();
         }

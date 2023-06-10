@@ -14,6 +14,6 @@ namespace Design_Patterns.Behavioral_DP.Visitor_DP.Employee
         public int Salary { get; set; }
         public int WorkingHours { get; set; }
 
-        public abstract void PaySalary(IPayment payment);
+        public abstract void PaySalary(IPaymentVisitor payment);
     }
 }

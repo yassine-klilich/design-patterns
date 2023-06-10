@@ -8,7 +8,7 @@ namespace Design_Patterns.Behavioral_DP.Visitor_DP.Employee
 {
     internal class Reception : HospitalEmployee
     {
-        public override void PaySalary(IPayment payment)
+        public override void PaySalary(IPaymentVisitor payment)
         {
             payment.SendMoney();
         }
