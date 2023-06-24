@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns.Behavioral_DP.Visitor_DP.Payment
 {
-    internal class Cash : IPaymentVisitor
+    internal class PayPal : IPaymentVisitor
     {
         public void SendMoney()
         {
-            Console.WriteLine("Pay salary by Cash");
+            Console.WriteLine("Pay salary by PayPal");
         }
     }
 }

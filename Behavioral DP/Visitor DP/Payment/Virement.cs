@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns.Behavioral_DP.Visitor_DP.Payment
 {
-    internal class Transfer : IPaymentVisitor
+    internal class Virement : IPaymentVisitor
     {
         public void SendMoney()
         {
-            Console.WriteLine("Pay salary via Transfer");
+            Console.WriteLine("Pay salary via Virement");
         }
     }
 }
